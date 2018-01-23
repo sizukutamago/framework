@@ -1,0 +1,34 @@
+{
+    "name": "sizukutamago/framework",
+    "type": "project",
+    "autoload": {
+        "files" : ["src/functions.php"],
+        "psr-4" : {
+            "SizukuBBS\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sizukutamago",
+            "email": "sizukutamago@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "vlucas/phpdotenv": "^2.4",
+        "twig/twig": "^2.4",
+        "twig/extensions": "^1.5",
+        "j4mie/idiorm": "^1.5",
+        "j4mie/paris": "^1.5",
+        "robmorgan/Phinx": "^0.8.1",
+        "nikic/fast-route": "^1.2",
+        "monolog/monolog": "^1.23",
+        "vlucas/valitron": "^1.4",
+        "nesbot/carbon": "^1.22",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.1",
+        "digitalnature/php-ref": "^1.2"
+    }
+}
