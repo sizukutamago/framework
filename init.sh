@@ -1,6 +1,6 @@
-#!/bin/bash
+#/bin/bash
 
-composre install
+composer install
 
 cp ./.env.example ./.env
 
