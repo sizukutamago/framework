@@ -1,6 +1,7 @@
 {
     "name": "sizukutamago/framework",
     "type": "project",
+    "minimum-stability": "dev",
     "autoload": {
         "files" : ["src/functions.php"],
         "psr-4" : {
